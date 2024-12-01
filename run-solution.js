@@ -26,7 +26,7 @@ displayHeader('Advent of Code');
 // Prompt for day and part
 rl.question(chalk.blueBright('Enter the day (e.g., 01): '), (day) => {
   rl.question(chalk.magentaBright('Enter the part (e.g., 1): '), (part) => {
-    const scriptPath = path.resolve(`solutions/day${day}-part${part}.js`);
+    const scriptPath = path.resolve(`solutions/day${day}/part${part}.js`);
 
     console.log(chalk.yellowBright(`\nRunning: ${scriptPath}\n`));
 
