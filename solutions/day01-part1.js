@@ -8,7 +8,7 @@ function parseInput(filePath) {
   const right = [];
   
   data.split('\n').forEach(line => {
-    const [l, r] = line.split(/\s+/).map(Number); // Split by whitespace
+    const [l, r] = line.split(/\s+/).map(Number);
     left.push(l);
     right.push(r);
   });
@@ -33,7 +33,7 @@ function calculateTotalDistance(left, right) {
 
 // Main function
 function main() {
-  const inputPath = path.resolve('inputs', 'day01.txt'); // Adjust path if necessary
+  const inputPath = path.resolve('inputs', 'day01.txt');
   const { left, right } = parseInput(inputPath);
   const totalDistance = calculateTotalDistance(left, right);
 
