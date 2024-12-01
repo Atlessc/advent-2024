@@ -1,0 +1,33 @@
+{
+  "name": "advent-2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "map": "node map-project.js",
+    "advent": "node run-solution.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@jest/globals": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.16.0",
+    "jest": "^29.7.0",
+    "jest-environment-node": "^29.7.0",
+    "prettier": "^3.4.1"
+  }
+}
