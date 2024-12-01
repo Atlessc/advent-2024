@@ -6,7 +6,7 @@ export function parseInput(filePath) {
   const right = [];
 
   data.split('\n').forEach(line => {
-    const [l, r] = line.split(/\s+/).map(Number); // Split by whitespace
+    const [l, r] = line.split(/\s+/).map(Number);
     left.push(l);
     right.push(r);
   });
